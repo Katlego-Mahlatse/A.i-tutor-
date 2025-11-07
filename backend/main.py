@@ -242,3 +242,21 @@ if __name__ == "__main__":
     print("📚 Make sure Ollama is running: ollama serve")
     print("🤖 Make sure Llama 3 is installed: ollama pull llama3")
     uvicorn.run(app, host="0.0.0.0", port=8000)
+```
+
+✅ Click "Commit new file"
+
+---
+
+## 🗂️ FILE 2: `backend/requirements.txt`
+
+**Filename:** `backend/requirements.txt`
+```
+fastapi==0.104.1
+uvicorn==0.24.0
+chromadb==0.4.18
+sentence-transformers==2.2.2
+PyPDF2==3.0.1
+requests==2.31.0
+python-multipart==0.0.6
+pydantic==2.5.0
